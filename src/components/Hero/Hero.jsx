@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import { Link } from 'react-router-dom'
 import './Hero.css'
 import Button from '../Button/Button'
@@ -22,6 +22,3 @@ function Hero(props){
 }
 
 export default Hero
-=======
-
->>>>>>> c20936eee1cce4a53547656059bf7beffa9c0f10
