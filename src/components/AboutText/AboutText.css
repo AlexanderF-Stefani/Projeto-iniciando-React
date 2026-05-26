@@ -1,1 +1,16 @@
+.text-section{
+  column-gat: 97px;
+  margin: 160px ato;
+}
 
+.text-section-text{
+  flex:1;
+}
+
+text-section-text h2{
+  font-size: 50px;
+}
+
+.text-section-text p{
+  font-size:50px;
+}
