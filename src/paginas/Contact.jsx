@@ -8,7 +8,7 @@ function Contact(){
         <>
             <Header />
             <Banner title="Contact" image="contact.jpg" />
-            <div>
+            <div className="container">
                 <ContactForm />
             </div>
         </>
