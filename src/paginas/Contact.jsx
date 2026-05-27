@@ -8,9 +8,9 @@ function Contact(){
         <>
             <Header />
             <Banner title="Contact" image="contact.jpg" />
-            <divv>
+            <div>
                 <ContactForm />
-            </divv>
+            </div>
         </>
     )
 }
