@@ -11,7 +11,7 @@ import Button from '../Button/Button'
 function Header(){
     const [isOpen, setIsOpen] = useState(false)
     const toggleMenu = () => {
-        setIsOpen(!isOpen  )
+        setIsOpen(!isOpen)
     }
     return(
         <header>
