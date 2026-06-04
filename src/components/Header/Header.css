@@ -24,6 +24,10 @@ nav a:hover {
     color: #0C70F2;
 }
 
+.mobile-menu {
+        diplay: none;
+    }
+
 @media (max-width: 768px){
 	.nav.open {
         align-items: end;
