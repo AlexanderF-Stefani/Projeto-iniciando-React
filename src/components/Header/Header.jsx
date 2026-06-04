@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom'
+import {useState} from 'react'
 import './Header.css'
 
 //ASSETS
@@ -8,17 +9,21 @@ import Logo from '../../assets/dnc-logo.svg'
 import Button from '../Button/Button'
 
 function Header(){
+    const [isOpen, setIsOpen] = useState(false)
     return(
         <header>
             <div className="container">
                 <div className="al-center d-flex jc-space-between">
                     <Link to="/"><img src={Logo} alt="" /></Link>  {/* Esta linha contém a logo e a transforma em um link que joga para a página principal*/}
                     <div className="mobile-menu">
-                        <Button buttonStyle="secondary">
+                        <Button buttonStyle="secondary" onClick={() => setIsOpen(!isOpen)}>
                             Menu
                         </Button>
                     </div>
-                    <nav>
+                    <nav className={`${isOpen ? 'open' : ''}`}>
+                        <Button buttonStyle="unstyled" className="mobile-menu close-btn" onClick={() => setIsOpen(!isOpen)}>
+                            X
+                        </Button>
                         <ul className='d-flex'>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
