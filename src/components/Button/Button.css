@@ -11,12 +11,12 @@
 }
 
 /*PRIMARY*/
-.button.primary{
+.button.primary {
 	background-color: #0C70F2;
 	color: white;
 }
 
-.button.primary: hover{
+.button.primary:hover {
 	background-color: #0056B3;
 }
 
@@ -26,7 +26,7 @@
 	color: white;
 }
 
-.button.secondary: hover{
+.button.secondary:hover{
 	background-color: #4D5053;
 }
 
@@ -37,7 +37,7 @@
 	color: #0C70F2;
 }
 
-.button.outline: hover{
+.button.outline:hover{
 	background-color: #0C70F2;
 	color: white;
 }

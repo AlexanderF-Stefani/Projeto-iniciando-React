@@ -25,7 +25,7 @@ nav a:hover {
 }
 
 .mobile-menu {
-        diplay: none;
+        display: none;
     }
 
 @media (max-width: 768px){
@@ -37,7 +37,7 @@ nav a:hover {
     nav {
         background-color: #1D1D1D;
         border-left: 10px solid #333;
-        diplay: none;
+        display: none;
         flex-direction: column;
         height: 100%;
         padding: 37px;
@@ -63,16 +63,16 @@ nav a:hover {
         color: white;
         font-size: 20px;
         margin: 0 0 10px 0;
-        tex-decoration: none;
+        text-decoration: none;
         width: 100%;
     }
 
     .mobile-menu {
-        diplay: block;
+        display: block;
     }
 
     .close-btn {
-        backgroun: none;
+        background: none;
         border: none;
         color: white;
 		cursor: pointer;

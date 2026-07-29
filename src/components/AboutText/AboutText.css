@@ -1,6 +1,6 @@
 .text-section{
-  column-gat: 97px;
-  margin: 160px ato;
+  column-gap: 97px;
+  margin: 160px auto;
 }
 
 .text-section-text{
